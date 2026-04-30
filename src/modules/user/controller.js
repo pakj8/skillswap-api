@@ -1,5 +1,5 @@
 const User = require("../../models/User");
-const CreditTransaction = require("../../models/Credittransaction");
+const CreditTransaction = require("../../models/CreditTransaction");
 const {
   generateToken,
   hashPassword,

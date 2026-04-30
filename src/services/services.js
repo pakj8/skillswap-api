@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const mongoose = require("mongoose");
 const User = require("../models/User");
-const CreditTransaction = require("../models/Credittransaction");
+const CreditTransaction = require("../models/CreditTransaction");
 
 // ─── Auth helpers ─────────────────────────────────────────
 
