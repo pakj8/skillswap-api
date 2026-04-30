@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Session = require("../models/session");
+const Session = require("../models/Session");
 const {
   releaseToTeacher,
   refundLearner,

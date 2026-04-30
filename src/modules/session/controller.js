@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const User = require("../../models/User");
-const Session = require("../../models/session");
+const Session = require("../../models/Session");
 const CreditTransaction = require("../../models/CreditTransaction");
 const {
   lockCredits,
