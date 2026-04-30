@@ -16,11 +16,8 @@ async function startServer() {
   // CORS
   app.use(
     cors({
-      origin: [
-        "http://localhost:3000",
-        "https://skill-swap-drab-tau.vercel.app/",
-      ],
-      credentials: true,
+      origin: "*",
+      credentials: false,
     })
   );
 
