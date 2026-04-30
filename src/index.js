@@ -18,7 +18,7 @@ async function startServer() {
     cors({
       origin: [
         "http://localhost:3000",
-        "https://skillswap-api-production-5c44.up.railway.app/graphql",
+        "https://skill-swap-drab-tau.vercel.app/",
       ],
       credentials: true,
     })
