@@ -16,7 +16,10 @@ async function startServer() {
   // CORS
   app.use(
     cors({
-      origin: "https://skillswap-api-production-5c44.up.railway.app/graphql",
+      origin: [
+        "http://localhost:3000",
+        "https://skillswap-api-production-5c44.up.railway.app/graphql",
+      ],
       credentials: true,
     })
   );
