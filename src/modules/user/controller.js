@@ -1,5 +1,5 @@
 const User = require("../../models/User");
-const CreditTransaction = require("../../models/CreditTransaction");
+const Credittransaction = require("../../models/CreditTransaction");
 const {
   generateToken,
   hashPassword,
@@ -42,7 +42,7 @@ async function createProfile(profileInput) {
     onboardingStep: 4,
   });
 
-  await CreditTransaction.create({
+  await Credittransaction.create({
     user: user._id,
     session: null,
     type: "signup_bonus",
